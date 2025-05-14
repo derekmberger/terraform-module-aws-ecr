@@ -4,6 +4,7 @@
 locals {
   account_root_arn = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root"
 
+  # ECR Policy Evaluation Locals
   # Base statement: always the repo’s own account
   stmt_local_account = [
     {
