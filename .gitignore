@@ -1,0 +1,10 @@
+.terraform
+.tfstate
+*.gz
+*.tar
+*.zip
+.DS_Store
+.idea
+.terraform.lock.hcl
+terraform.tfstate.d
+terraform.tfstate
